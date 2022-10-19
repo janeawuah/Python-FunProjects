@@ -1,3 +1,3 @@
-msg = "I need help from God"
-
-print(msg)
+ MadLibs is a game in which you write a story with missing words in it; then,
+you can ask another player to fill in the blanks.
+ As you are the only one who knows what’s in your story about, the result is often funny and silly.
