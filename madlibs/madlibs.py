@@ -24,4 +24,4 @@ print("I think I've got that ",body_part ," virus that is going around ",name_of
 print("I'm ",human_feeling, ",but I can't come into ",place_of_work ," today. ")
 print("My ", medical_specialist, " says I should stay at", name_of_place2, " and ", name_of_verb, " for up to ", num_of_weeks ," weeks.")
 print("I will try to stop in by ", time_value," tomorrow, but if not, I'll ", verb, " and get some ", activity_name ,"done at ", name_of_place3 ,". ")
-print("If you need me, you can reach me at ", silly_email, ". I hope I will be ",adjective," enough to come in by ",time_in_the_future, ". Thanks!")
+print("If you need me, you can reach me at ", silly_email,".")
