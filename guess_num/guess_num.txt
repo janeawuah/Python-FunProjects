@@ -1,0 +1,2 @@
+This is a simple game of number guessing.
+A random number is generated and a player is supposed to guess the correct number.

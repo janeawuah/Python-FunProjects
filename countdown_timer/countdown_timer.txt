@@ -1,0 +1,2 @@
+This project was built using the time Python module. 
+User enters time in seconds and the countdown begins
