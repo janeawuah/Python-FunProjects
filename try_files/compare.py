@@ -2,10 +2,13 @@
 
 import random
 from faker import Faker
+import json
+
+
 
 faker = Faker()
 
-def get_name():
+def get_name(*gndr):
     random_name = faker.name()
     print("In the function name is : ", random_name)
     return random_name
@@ -18,7 +21,7 @@ def get_gender():
     return random.choice(['f','m'])
 
 def main():
-    piis = ["name","gender"]
+    piis = ["name","dob","gender"]
     piis_value = []
     num = len(piis)
 
@@ -34,9 +37,15 @@ def main():
 
 
 
-    
+    data = []
     for i in range(num):
-        print(piis[i]," : ",piis_value[i])
+        data.append([piis[i]," : ",piis_value[i]])
+        # print(piis[i]," : ",piis_value[i])
+    
+    jsonString = json.dumps(data)
+
+    print(jsonString)
+
 
 main()
 
