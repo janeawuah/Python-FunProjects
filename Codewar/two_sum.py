@@ -26,8 +26,8 @@ def two_sum2(numbers: List, target: int) -> List:
 
 
 def two_sumVincent(numbers: List, target: int) -> List:
-    numbers.sort()
-    print(numbers)
+    # numbers.sort()
+    # print(numbers)
     left = 0
     right = len(numbers)-1
     to_return = []
